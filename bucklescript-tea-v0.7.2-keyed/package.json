@@ -1,0 +1,21 @@
+{
+  "name": "js-framework-benchmark",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "run-p start.bsb start.webpack",
+    "start.bsb": "bsb -make-world -w",
+    "start.webpack": "webpack -d -w",
+    "build-prod": "bsb -clean-world && bsb -make-world && webpack -p"
+  },
+  "author": "Utkarsh Kukreti <utkarshkukreti@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^2.2.2",
+    "npm-run-all": "^4.1.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10"
+  },
+  "dependencies": {
+    "bucklescript-tea": "^0.7.2"
+  }
+}
