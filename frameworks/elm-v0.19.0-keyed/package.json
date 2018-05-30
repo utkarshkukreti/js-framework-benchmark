@@ -1,0 +1,23 @@
+{
+  "name": "js-framework-benchmark-elm",
+  "version": "1.0.0",
+  "description": "Elm demo",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "elm install",
+    "build-prod": "elm make src/Main.elm --output=dist/main.js --optimize"
+  },
+  "keywords": [
+    "elm"
+  ],
+  "author": "Eduard Kyvenko <eduard.kyvenko@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/krausest/js-framework-benchmark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krausest/js-framework-benchmark.git"
+  },
+  "devDependencies": {
+    "elm": "0.18.0"
+  }
+}
